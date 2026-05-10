@@ -1,0 +1,11 @@
+/**
+ * 后端根地址（不要尾斜杠）。
+ * 微信小程序真机调试请填开发机局域网 IP，例如 http://192.168.1.8:8080
+ * H5 开发可用 http://127.0.0.1:8080
+ */
+export const API_BASE_URL = 'http://localhost:8083'
+
+/**
+ * 待办数据来源：remote = Spring Boot + MySQL（AI 生成会写库并刷新列表）；local = 仅本机缓存
+ */
+export const TODO_DATA_SOURCE = 'remote'

@@ -1,0 +1,98 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "待办",
+        "navigationBarBackgroundColor": "#F5F7FB",
+        "backgroundColor": "#F5F7FB"
+      }
+    },
+    {
+      "path": "pages/stats/stats",
+      "style": {
+        "navigationBarTitleText": "统计",
+        "navigationBarBackgroundColor": "#F5F7FB",
+        "backgroundColor": "#F5F7FB"
+      }
+    },
+    {
+      "path": "pages/ai-chat/ai-chat",
+      "style": {
+        "navigationBarTitleText": "AI 助手",
+        "navigationBarBackgroundColor": "#EEF2FF",
+        "backgroundColor": "#F5F7FB"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "navigationBarBackgroundColor": "#F5F7FB",
+        "backgroundColor": "#F5F7FB"
+      }
+    },
+    {
+      "path": "pages/todo-add/todo-add",
+      "style": {
+        "navigationBarTitleText": "新建待办",
+        "navigationBarBackgroundColor": "#F5F7FB",
+        "backgroundColor": "#F5F7FB"
+      }
+    },
+    {
+      "path": "pages/todo-edit/todo-edit",
+      "style": {
+        "navigationBarTitleText": "编辑待办",
+        "navigationBarBackgroundColor": "#F5F7FB",
+        "backgroundColor": "#F5F7FB"
+      }
+    },
+    {
+      "path": "pages/todo-detail/todo-detail",
+      "style": {
+        "navigationBarTitleText": "待办详情",
+        "navigationBarBackgroundColor": "#F5F7FB",
+        "backgroundColor": "#F5F7FB"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智能待办",
+    "navigationBarBackgroundColor": "#F5F7FB",
+    "backgroundColor": "#F5F7FB"
+  },
+  "tabBar": {
+    "color": "#64748B",
+    "selectedColor": "#2563EB",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "待办",
+        "iconPath": "static/tab/home_normal.png",
+        "selectedIconPath": "static/tab/home_selected.png"
+      },
+      {
+        "pagePath": "pages/stats/stats",
+        "text": "统计",
+        "iconPath": "static/tab/stats_normal.png",
+        "selectedIconPath": "static/tab/stats_selected.png"
+      },
+      {
+        "pagePath": "pages/ai-chat/ai-chat",
+        "text": "AI",
+        "iconPath": "static/tab/ai_normal.png",
+        "selectedIconPath": "static/tab/ai_selected.png"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "设置",
+        "iconPath": "static/tab/settings_normal.png",
+        "selectedIconPath": "static/tab/settings_selected.png"
+      }
+    ]
+  }
+}
