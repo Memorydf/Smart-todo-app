@@ -2,6 +2,11 @@
 
 基于 UniApp + Spring Boot + DeepSeek AI 构建的智能待办事项管理应用。
 
+## 🔗 项目地址
+
+- **GitHub**: https://github.com/Memorydf/Smart-todo-app
+- **作者**: Memorydf
+
 ## 功能特性
 
 - 📋 **待办管理**：添加、编辑、删除待办事项，支持分类和优先级
